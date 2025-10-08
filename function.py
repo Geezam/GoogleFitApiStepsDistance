@@ -14,7 +14,7 @@ def PreMonthFirstLast(): #info about the previous month as example data
     last = last_day.timetuple()
     humanLast = last_day.strftime('%d %B %Y')
     #returns the last date of the previous month - datetime.date(2019, 7, 31)
-    
+
 #https://www.w3schools.com/python/python_datetime.asp
 #https://stackoverflow.com/questions/57686399/how-to-consider-previous-month-first-day-and-previous-month-last-day-in-timestam
     
@@ -26,3 +26,4 @@ def PreMonthFirstLast(): #info about the previous month as example data
     
     firstLast = [first,last,humanFirst,humanLast,lastMonth,firstDayNum,lastDayNum,monthNum,yearNum]
     return firstLast
+
